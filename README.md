@@ -3,13 +3,13 @@
  
  As a rough rule of thumb, 1 token is approximately 4 characters or 0.75 words for English text.
 
- # to run
+ # To run
  source .venv/bin/activate
  pip install -r requirements.txt
  python RAG_test.py
 
- # activate service by entering this into your terminal:
+ # Activate service by entering this into your terminal:
 uvicorn main:app --reload
 
-# add the following prefix to your link on the browser:
+# Add the following prefix to your link on the browser:
 /chatbot/docs
