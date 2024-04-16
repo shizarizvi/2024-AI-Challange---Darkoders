@@ -1,0 +1,10 @@
+langchain 
+langchain-community
+langchain-core
+langchain-text-splitters 
+langchain-openai
+openai
+python-dotenv
+constants
+langchain-chroma
+pydantic
