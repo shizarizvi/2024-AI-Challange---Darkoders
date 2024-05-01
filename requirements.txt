@@ -7,4 +7,5 @@ openai
 python-dotenv
 constants
 langchain-chroma
+langchain-pinecone
 pydantic
