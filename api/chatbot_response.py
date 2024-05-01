@@ -14,7 +14,7 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 class Request(BaseModel):
-    user_query: str = None
+    user_query: str 
     
 router = APIRouter()
 
