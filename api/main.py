@@ -22,9 +22,6 @@ def chatbot(user_query):
     model = ChatOpenAI(api_key=OPENAI_API_KEY, model="gpt-3.5-turbo")
     parser = StrOutputParser()
     template = """
-    Answer the question based on the context below. If you can't 
-    find the answer in the given context, reply with your knowlegde. Otherwise, reply "I don't know.".
-
     Context: {context}
 
     Question: {question}
